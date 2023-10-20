@@ -1,5 +1,7 @@
+import sys
 from queue import PriorityQueue
 
+input = sys.stdin.readline
 pq = PriorityQueue()
 num_men = int(input())
 home_to_company = []
