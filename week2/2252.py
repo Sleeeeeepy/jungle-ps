@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-input = sys.stdin.readline()
+input = sys.stdin.readline
 num_student, num_compare = map(int, input().split())
 graph = [[] for _ in range(num_student)]
 indegree = [0 for _ in range(num_student)]
